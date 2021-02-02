@@ -213,6 +213,7 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -227,12 +228,15 @@ Rigidbody2D:
   pancake3: {fileID: 8412175310229008235, guid: 1d8f07f146425bb4c9247469248aee01, type: 3}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of cba7b24... 3 pancakes now fall
   m_GameObject: {fileID: 458842730}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LinearDrag: 0.5
 =======
@@ -242,11 +246,15 @@ Rigidbody2D:
   m_LinearDrag: 0.5
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+  m_LinearDrag: 0
+>>>>>>> parent of cba7b24... 3 pancakes now fall
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_CollisionDetection: 1
 =======
@@ -259,6 +267,10 @@ Rigidbody2D:
   m_Constraints: 0
 >>>>>>> master
 >>>>>>> Stashed changes
+=======
+  m_CollisionDetection: 0
+  m_Constraints: 0
+>>>>>>> parent of cba7b24... 3 pancakes now fall
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf3f88e541336d40afb0605ad55a94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< Updated upstream
@@ -654,3 +667,5 @@ Rigidbody2D:
 >>>>>>> master
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of cba7b24... 3 pancakes now fall
