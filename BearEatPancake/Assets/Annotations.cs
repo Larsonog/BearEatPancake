@@ -8,7 +8,7 @@ public class Annotations : MonoBehaviour
     // bear https://opengameart.org/content/bear-0
     // cloud https://opengameart.org/content/cloud
     // background https://opengameart.org/content/large-forest-background
-
+    // pancake https://www.clipartmax.com/download/m2i8K9i8K9d3G6N4_pancake-clip-art-free-pancake-cliparts-download-free-pancake-clipart-png/
 
 
 
