@@ -7,6 +7,7 @@ public class droppancakes : MonoBehaviour
     public GameObject pancake1;
     public GameObject pancake2;
     public GameObject pancake3;
+    public GameObject pancake4;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,7 @@ public class droppancakes : MonoBehaviour
         StartCoroutine("DropPancakeOne");
         StartCoroutine("DropPancakeTwo");
         StartCoroutine("DropPancakeThree");
+        StartCoroutine("DropPancakeFour");
         //InvokeRepeating("droppancake1", 2f, .56f);
         //InvokeRepeating("droppancake2", 2.5f, .5f);
         //InvokeRepeating("droppancake3", 3f, .75f);
@@ -52,6 +54,16 @@ public class droppancakes : MonoBehaviour
         }
     }
 
+    IEnumerator DropPancakeFour()
+    {
+        yield return new WaitForSeconds(2f);
+        for (; ; )
+        {
+            Instantiate(pancake4);
+            yield return new WaitForSeconds(Random.Range(2f, 4f));
+        }
+    }
+
     void droppancake1()
     {
         Instantiate(pancake1);
@@ -66,4 +78,9 @@ public class droppancakes : MonoBehaviour
     {
         Instantiate(pancake3);
     }
+    void droppancake4()
+    {
+        Instantiate(pancake4);
+    }
 }
+
