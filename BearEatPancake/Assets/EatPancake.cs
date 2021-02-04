@@ -19,5 +19,6 @@ public class EatPancake : MonoBehaviour
     {
         Debug.Log("munch");
         Destroy(collision.gameObject);
+        GameManager.Instance.IncScore(1);
     }
 }

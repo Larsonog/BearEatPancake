@@ -21,14 +21,14 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void IncSCore(int ds)
+    public void IncScore(int ds)
     {
-        //score += ds;
-        //scoreText.text = "Score: " + score;
+        score += ds;
+        scoreText.text = "Score: " + score;
     }
     void Start()
     {
-        scoreText.text = "I'm awake";
+        
     }
 
     // Update is called once per frame
