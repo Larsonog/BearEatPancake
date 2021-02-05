@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EatPancake : MonoBehaviour
 {
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +21,7 @@ public class EatPancake : MonoBehaviour
         Debug.Log("munch");
         Destroy(collision.gameObject);
         GameManager.Instance.IncScore(1);
+        GetComponent<AudioSource>().Play();
     }
+
 }
